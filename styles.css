@@ -1,0 +1,53 @@
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A6192E;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #6a111e;
+}
+
+body {
+  
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border: 0px;
+  display: flex;
+  flex-direction: column;  
+}
+
+header {
+  width: 100%;
+}
+
+
+
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    
+}
+
+
+.joueur {
+    display: flex;
+    align-items: center; 
+    gap: 20px;           
+}
