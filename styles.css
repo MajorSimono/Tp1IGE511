@@ -1,27 +1,26 @@
 
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #A6192E;
+
+
+:root {
+  --bs-primary: #A6192E; 
+  --bs-primary-rgb: 166, 25, 46;
+
+
+
+
 }
 
-.navbar li {
-  float: left;
+.btn-primary {
+  --bs-btn-bg: #A6192E; 
+  --bs-btn-bg-rgb: 166, 25, 46;
+  --bs-btn-border-color: #A6192E; 
+  --bs-btn-border-color-rgb: 166, 25, 46;
+  --bs-btn-hover-bg: #4b0b15; 
+  --bs-btn-hover-bg-rgb: 75, 11, 21;
+  --bs-btn-hover-border-color: #4b0b15; 
+  --bs-btn-hover-border-color-rgb: 75, 11, 21;
 }
 
-.navbar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar li a:hover {
-  background-color: #6a111e;
-}
 
 body {
   
